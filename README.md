@@ -12,6 +12,7 @@ Inventory management for brands to control and manage the ordering and storage o
 8. Automatic reordering of products which are out of stock or low in stock
 9.
 
+![3-D Array v1](https://user-images.githubusercontent.com/47135656/54980420-a3bf4280-4fe0-11e9-83e2-7dc4b043ed06.png)
 
 
 
