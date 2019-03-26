@@ -10,4 +10,13 @@ Inventory management for brands to control and manage the ordering and storage o
 6. Automatic change of inventory status according to amount of commodity that is currently available
 7. Deliver alerts when commodity is put of stock
 8. Automatic reordering of products which are out of stock or low in stock
-9. 
+9.
+
+
+
+
+
+
+#
+How we plan to achieve our optimised inventory model
+#
