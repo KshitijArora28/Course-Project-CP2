@@ -11,15 +11,17 @@ Inventory management for brands to control and manage the ordering and storage o
 7. Deliver alerts when commodity is put of stock
 8. Automatic reordering of products which are out of stock or low in stock
 9.
-
 ![3-D Array v1](https://user-images.githubusercontent.com/47135656/54980420-a3bf4280-4fe0-11e9-83e2-7dc4b043ed06.png)
 
+## 3-D Representation of the Inventory Concept
 
+As the above figure suggests, the inventory model will be stocking products in terms of x,y and z positions.
+### Significance of x
+Products of similar category will be under the same value of x (Vegetables in grocery store, Electrical components in automobile manufacturing unit etc.)
+### Significance of y
+Different Products under the same category will be under the same value of y (Carrots and Potatoes under Vegetables,Transistors and Capacitors under Electrical components)
+### Significance of z
+Any sub variety under the same Product will appear as different products under z (Australian and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors)
 
+## Our method for an optimised inventory model
 
-
-
-
-#
-How we plan to achieve our optimised inventory model
-#
