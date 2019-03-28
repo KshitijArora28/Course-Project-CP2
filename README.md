@@ -31,3 +31,5 @@ Our optimised inventory model will use the above mentioned functions in conjunct
 A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
 
 ![fe9my](https://user-images.githubusercontent.com/47135656/55143632-14e62d80-517a-11e9-9783-bf3189877838.png)
+
+To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
