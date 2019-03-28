@@ -23,5 +23,7 @@ Different Products under the same category will be under the same value of y (Ca
 ### Significance of z
 Any sub variety under the same Product will appear as different products under z (Australian and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors)
 
-## Our method for an optimised inventory model
+## Our method for an Optimised Inventory Model
+
+Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
 
