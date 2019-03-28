@@ -11,9 +11,10 @@ Inventory management for brands to control and manage the ordering and storage o
 7. Deliver alerts when commodity is put of stock
 8. Automatic reordering of products which are out of stock or low in stock
 9.
-![3-D Array v1](https://user-images.githubusercontent.com/47135656/54980420-a3bf4280-4fe0-11e9-83e2-7dc4b043ed06.png)
 
 ## 3-D Representation of the Inventory Concept
+
+![3-D Array](https://user-images.githubusercontent.com/47135656/55143584-03048a80-517a-11e9-9a43-40ebdd990ab9.png)
 
 As the above figure suggests, the inventory model will be stocking products in terms of x,y and z positions.
 ### Significance of x
@@ -28,3 +29,5 @@ Any sub variety under the same Product will appear as different products under z
 Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
 
 A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
+
+![fe9my](https://user-images.githubusercontent.com/47135656/55143632-14e62d80-517a-11e9-9783-bf3189877838.png)
