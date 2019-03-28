@@ -27,3 +27,4 @@ Any sub variety under the same Product will appear as different products under z
 
 Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
 
+A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
