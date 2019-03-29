@@ -1,5 +1,7 @@
 # Commodity Inventory System
 
+The objective of this project is to build an inventory system that will enable the organisation using it to manage their stock effectively and efficiently, so as to run the business well.
+
 ## Functions for Inventory Management
 
 These functions will help a user to control, optimise, and manage the ordering and storage of data in the inventory :-
