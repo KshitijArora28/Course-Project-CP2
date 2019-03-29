@@ -1,6 +1,9 @@
 # Commodity Inventory System
-#
-## Functions for inventory management for brands to control, optimise, and manage the ordering and storage of inventory
+
+## Functions for Inventory Management
+
+These functions will help a user to control, optimise, and manage the ordering and storage of data in the inventory :-
+
 1. Management optimisation process: -Optimisation of inventory model for easy access to product info.
 2. Filters for searching commodities: -Filtering process to search for particular products based on particular requirements.
 3. Adding new commodities with basic information: -Increasing inventory list and adding info for new products.
@@ -29,7 +32,7 @@ Our optimised inventory model will use the above mentioned functions in conjunct
 
 A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
 
-![Project](https://user-images.githubusercontent.com/47174028/55214885-e9734980-5232-11e9-93ea-b614e1e3d088.jpg)
+![Project](https://user-images.githubusercontent.com/47174028/55222789-b25b6300-5247-11e9-9ed9-92667633fca8.jpg)
 
 To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
 #
