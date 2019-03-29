@@ -1,4 +1,3 @@
-## 3-D Representation of the Inventory Concept
 # Commodity Inventory System
 Inventory model
 #
