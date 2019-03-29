@@ -1,15 +1,15 @@
 # Commodity Inventory System
-Inventory model
 #
-Inventory management for brands to control and manage the ordering and storage of inventory
-1. Management optimisation process.
-2. Filters for searching commodities.
-3. Adding new commodities with basic information.
-4. Delete obsolete commodity and basic information.
-5. Change commodity info when stock changes,price changes, etc.
-6. Automatic change of inventory status according to amount of commodity that is currently available.
-7. Deliver alerts when commodity is put of stock
-8. Automatic reordering of products which are out of stock or low in stock
+## Functions for inventory management for brands to control, optimise, and manage the ordering and storage of inventory
+1. Management optimisation process: -Optimisation of inventory model for easy access to product info.
+2. Filters for searching commodities: -Filtering process to search for particular products based on particular requirements.
+3. Adding new commodities with basic information: -Increasing inventory list and adding info for new products.
+4. Delete obsolete commodity and basic information: -Delete products which have sales below minimum required sales.
+5. Change commodity info when stock changes,price changes, etc: -Change inventory details if details of product change.
+6. Automatic change of inventory status according to commodity amount that is currently available: -Inventory status update.
+7. Deliver alerts when commodity is put of stock: -Alert system for low/out of stock conditions.
+8. Automatic reordering of products: -Reordering system to order product units when stock is low.
+9. Max and min sales: -Calculate quanity of units sold for product and give products with max and min sales.
 
 ## 3-D Representation of the Inventory Concept
 
