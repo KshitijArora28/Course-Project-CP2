@@ -1,5 +1,5 @@
 # Commodity Inventory System
-#
+
 ## Functions for Inventory Management
 
 These functions will help a user to control, optimise, and manage the ordering and storage of inventory :-
