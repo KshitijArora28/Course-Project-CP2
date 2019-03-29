@@ -1,16 +1,15 @@
 # Commodity Inventory System
-Inventory model
 #
-Inventory management for brands to control and manage the ordering and storage of inventory
-1. Optimisation of management process.
-2. Search commodity according to different filters
-3. Insert new commodity with basic information
-4. Delete obsolete Commodity
-5. Update commodity information
-6. Automatic change of inventory status according to amount of commodity that is currently available
-7. Deliver alerts when commodity is put of stock
-8. Automatic reordering of products which are out of stock or low in stock
-9.
+## Functions for inventory management for brands to control, optimise, and manage the ordering and storage of inventory
+1. Management optimisation process: -Optimisation of inventory model for easy access to product info.
+2. Filters for searching commodities: -Filtering process to search for particular products based on particular requirements.
+3. Adding new commodities with basic information: -Increasing inventory list and adding info for new products.
+4. Delete obsolete commodity and basic information: -Delete products which have sales below minimum required sales.
+5. Change commodity info when stock changes,price changes, etc: -Change inventory details if details of product change.
+6. Automatic change of inventory status according to commodity amount that is currently available: -Inventory status update.
+7. Deliver alerts when commodity is put of stock: -Alert system for low/out of stock conditions.
+8. Automatic reordering of products: -Reordering system to order product units when stock is low.
+9. Max and min sales: -Calculate quanity of units sold for product and give products with max and min sales.
 
 ## 3-D Representation of the Inventory Concept
 
@@ -20,9 +19,9 @@ As the above figure suggests, the inventory model will be stocking products in t
 ### Significance of x
 Products of similar category will be under the same value of x (Vegetables in grocery store, Electrical components in automobile manufacturing unit etc.)
 ### Significance of y
-Different Products under the same category will be under the same value of y (Carrots and Potatoes under Vegetables,Transistors and Capacitors under Electrical components)
+Different Products under the same category will be under the same value of y (Carrots and Potatoes under Vegetables,Transistors and Capacitors under Electrical components etc.)
 ### Significance of z
-Any sub variety under the same Product will appear as different products under z (Australian and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors)
+Any sub variety under the same Product will appear as different products under z (Australian Carrots and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors etc.)
 
 ## Our method for an Optimised Inventory Model
 
@@ -30,6 +29,7 @@ Our optimised inventory model will use the above mentioned functions in conjunct
 
 A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
 
-![fe9my](https://user-images.githubusercontent.com/47135656/55143632-14e62d80-517a-11e9-9783-bf3189877838.png)
+![image](https://user-images.githubusercontent.com/47174028/55214252-0f97ea00-5231-11e9-88cc-f06e71b79323.png)
 
 To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
+#
