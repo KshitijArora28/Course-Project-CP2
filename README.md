@@ -20,9 +20,9 @@ As the above figure suggests, the inventory model will be stocking products in t
 ### Significance of x
 Products of similar category will be under the same value of x (Vegetables in grocery store, Electrical components in automobile manufacturing unit etc.)
 ### Significance of y
-Different Products under the same category will be under the same value of y (Carrots and Potatoes under Vegetables,Transistors and Capacitors under Electrical components)
+Different Products under the same category will be under the same value of y (Carrots and Potatoes under Vegetables,Transistors and Capacitors under Electrical components etc.)
 ### Significance of z
-Any sub variety under the same Product will appear as different products under z (Australian and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors)
+Any sub variety under the same Product will appear as different products under z (Australian Carrots and Chinese Carrots under Carrots,10mF and 20mF Capacitors under Capacitors etc.)
 
 ## Our method for an Optimised Inventory Model
 
@@ -33,3 +33,4 @@ A very clear list of the products is necessary for a comprehensive inventory sys
 ![fe9my](https://user-images.githubusercontent.com/47135656/55143632-14e62d80-517a-11e9-9783-bf3189877838.png)
 
 To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
+#
