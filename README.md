@@ -38,3 +38,14 @@ A very clear list of the products is necessary for a comprehensive inventory sys
 
 To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
 #
+
+## Header Files to be used
+iostream
+fstream
+sstream
+cstdlib
+string
+iomanip>
+stdlib.h
+cmath
+cstring
