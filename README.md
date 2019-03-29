@@ -39,11 +39,20 @@ To achieve these objectives, we will be making use of structures, linked lists, 
 
 ## Header Files to be used
 iostream
+#
 fstream
+#
 sstream
+#
 cstdlib
+#
 string
-iomanip>
+#
+iomanip
+#
 stdlib.h
+#
 cmath
+#
 cstring
+#
