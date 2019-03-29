@@ -2,7 +2,7 @@
 
 ## Functions for Inventory Management
 
-These functions will help a user to control, optimise, and manage the ordering and storage of inventory :-
+These functions will help a user to control, optimise, and manage the ordering and storage of data in the inventory :-
 
 1. Management optimisation process: -Optimisation of inventory model for easy access to product info.
 2. Filters for searching commodities: -Filtering process to search for particular products based on particular requirements.
