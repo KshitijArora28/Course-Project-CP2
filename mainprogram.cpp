@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 struct product{
   string code;
   string name;
@@ -8,4 +9,6 @@ struct product{
   char expiry_date[8];
   double cost;
 };
-int main()
+int main(){
+  return 0;
+}
