@@ -1,5 +1,7 @@
 # Commodity Inventory System
 
+The objective of this project is to build an inventory system that will enable the organisation using it to manage their stock effectively and efficiently, so as to run the business well.
+
 ## Functions for Inventory Management
 
 These functions will help a user to control, optimise, and manage the ordering and storage of data in the inventory :-
@@ -30,9 +32,9 @@ Any sub variety under the same Product will appear as different products under z
 
 Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
 
-A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.
+A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.For reference: -
+
 
 ![Project](https://user-images.githubusercontent.com/47174028/55222789-b25b6300-5247-11e9-9ed9-92667633fca8.jpg)
 
 To achieve these objectives, we will be making use of structures, linked lists, dynamic variables and a number of libraries and C++ resources.
-#
