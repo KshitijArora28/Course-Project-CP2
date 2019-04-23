@@ -2,11 +2,11 @@
 #include <string>
 struct product{
   string code;
-  string name;
-  int quantity;
+  string name;//given by user
+  int quantity;//given by user
   int number_sold;
-  char expiry_date[10];
-  double cost;
+  char expiry_date[10];//given by user
+  double cost;//gven by user
 };
 int main(){
   char choice;
