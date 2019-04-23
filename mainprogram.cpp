@@ -5,7 +5,7 @@ struct product{
   string name;
   int quantity;
   int number_sold;
-  char expiry_date[8];
+  char expiry_date[10];
   double cost;
 };
 int main(){
