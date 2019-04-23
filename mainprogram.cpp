@@ -2,10 +2,35 @@
 #include <string>
 struct product{
   string code;
-  string name;
-  int quantity;
+  string name;//given by user
+  int quantity;//given by user
   int number_sold;
-  char expiry_date[8];
-  double cost;
+  char expiry_date[10];//given by user
+  double cost;//gven by user
 };
-int main()
+int main(){
+  char choice;
+  cout<<"Enter choice"<<endl;
+  cout<<"D->Display inventory"<<endl;
+  cout<<"I->Insert new commodities"<<endl;
+  cout<<"C->Change commodity info"<<endl;
+  cout<<"R->Remove commodity"<<endl;
+  cout<<"E->Economic advise based on stock data"<<endl;
+  cout<<"S->Search item"<<endl;
+  cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"T->Terminate code"<<endl;
+
+  int or_size=0;
+  int new_size=0;
+  product * p[]=new int[0];
+  switch(choice){
+    //switch (/* expression */) {
+      case 'I':
+      int n;
+      cout<<"Enter the number of commodities to be appended: -"<<endl;
+      cin>>n;
+      new_size=or_size+n;
+      insert_item(p,or_size,new_size);
+    }
+  }
+}
