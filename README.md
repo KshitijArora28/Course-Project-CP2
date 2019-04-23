@@ -1,5 +1,7 @@
 # Commodity Inventory System
 
+The objective of this project is to build an inventory system that will enable the organisation using it to manage their stock effectively and efficiently, so as to run the business well.
+
 ## Functions for Inventory Management
 
 These functions will help a user to control, optimise, and manage the ordering and storage of data in the inventory :-
@@ -10,7 +12,7 @@ These functions will help a user to control, optimise, and manage the ordering a
 4. Delete obsolete commodity and basic information: -Delete products which have sales below minimum required sales.
 5. Change commodity info when stock changes,price changes, etc: -Change inventory details if details of product change.
 6. Automatic change of inventory status according to commodity amount that is currently available: -Inventory status update.
-7. Deliver alerts when commodity is put of stock: -Alert system for low/out of stock conditions.
+7. Deliver alerts when commodity is out of stock: -Alert system for low/out of stock conditions.
 8. Automatic reordering of products: -Reordering system to order product units when stock is low.
 9. Max and min sales: -Calculate quanity of units sold for product and give products with max and min sales.
 
