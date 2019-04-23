@@ -5,7 +5,7 @@ struct product{
   string name;//given by user
   int quantity;//given by user
   int number_sold;
-  char expiry_date[10];//given by user
+  string expiry_date;//given by user
   double cost;//gven by user
 };
 int main(){
@@ -22,7 +22,7 @@ int main(){
 
   int or_size=0;
   int new_size=0;
-  product * p[]=new int[0];
+  product * p[]=new product[0];
   switch(choice){
     //switch (/* expression */) {
       case 'I':
