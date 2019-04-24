@@ -8,9 +8,10 @@ struct product{
   string expiry_date;//given by user
   double cost;//gven by user
 };
+
 int main(){
   char choice;
-  cout<<"Enter choice"<<endl;
+  cout<<"Enter choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
   cout<<"C->Change commodity info"<<endl;
@@ -53,8 +54,16 @@ int main(){
       cin>>e;
       change(p,nm,q,c,e,or_size);
       break;
-
     }
-  }
+  cout<<"Enter next choice:"<<endl;
+  cout<<"D->Display inventory"<<endl;
+  cout<<"I->Insert new commodities"<<endl;
+  cout<<"C->Change commodity info"<<endl;
+  cout<<"R->Remove commodity"<<endl;
+  cout<<"E->Economic advise based on stock data"<<endl;
+  cout<<"S->Search item"<<endl;
+  cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"T->Terminate code"<<endl;
+  cin>>choice;
   }
 }
