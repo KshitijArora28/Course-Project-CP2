@@ -9,6 +9,7 @@ struct product{
   char expiry_date[8];
   double cost;
 };
+
 int main(){
   return 0;
 }
