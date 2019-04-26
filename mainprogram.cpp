@@ -25,7 +25,7 @@ int main(){
   cin>>choice;
   int or_size=0;
   int new_size=0;
-  product * p[]=new product[0];
+  product * p[]=new product[1];
   while(choice!='T'){
   switch(choice){
     //switch (/* expression */) {
