@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstdlib>
 
 struct product{
   string code;
@@ -8,6 +9,9 @@ struct product{
   int number_sold;
   string expiry_date;//given by user
   double cost;//gven by user
+  char stock;
+  int stk;
+  int sales;
 };
 
 int main(){
@@ -20,6 +24,7 @@ int main(){
   cout<<"E->Economic advise based on stock data"<<endl;
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"Q->Sell and check stock"<<endl;
   cout<<"T->Terminate code"<<endl;
 
   cin>>choice;
@@ -62,6 +67,13 @@ int main(){
       cin>>n;
       delete_commodity(p,or_size,s);
       break;
+
+      case 'Q':
+      cout<<"Enter product name to check stock: -"<<endl;
+      string f;
+      cin>>f;
+      stock(p,f,or_size);
+      break;
     }
   cout<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
@@ -71,6 +83,7 @@ int main(){
   cout<<"E->Economic advise based on stock data"<<endl;
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"Q->Sell and check stock"<<endl;
   cout<<"T->Terminate code"<<endl;
   cin>>choice;
   }
