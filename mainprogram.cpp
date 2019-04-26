@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 struct product{
   string code;
   string name;//given by user
@@ -20,7 +21,7 @@ int main(){
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
   cout<<"T->Terminate code"<<endl;
-
+ 
   cin>>choice;
   int or_size=0;
   int new_size=0;
