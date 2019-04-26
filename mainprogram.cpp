@@ -24,7 +24,7 @@ int main(){
 
   cin>>choice;
   int or_size=1;
-  int new_size=0;
+  int new_size;
   product * p[]=new product[1];
   while(choice!='T'){
   switch(choice){
@@ -54,6 +54,13 @@ int main(){
       string e;
       cin>>e;
       change(p,nm,q,c,e,or_size);
+      break;
+
+      case 'R':
+      cout<<cout<<"Enter product name to delete: -"<<endl;
+      string s;
+      cin>>n;
+      delete_commodity(p,or_size,s);
       break;
     }
   cout<<"Enter next choice:"<<endl;
