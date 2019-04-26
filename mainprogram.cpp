@@ -67,4 +67,5 @@ int main(){
   cout<<"T->Terminate code"<<endl;
   cin>>choice;
   }
+  return 0;
 }
