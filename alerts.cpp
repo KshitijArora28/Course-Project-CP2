@@ -29,5 +29,4 @@ void alerts(product *p,int n){
       }
     }
   }
-  
 }

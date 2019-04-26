@@ -12,7 +12,7 @@ struct product{
 
 int main(){
   char choice;
-  cout<<"Enter choice:"<<endl;
+  cout<<"Choices for Operation"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
   cout<<"C->Change commodity info"<<endl;
@@ -21,13 +21,14 @@ int main(){
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
   cout<<"T->Terminate code"<<endl;
- 
+  cout<<"Enter choice: ";
   cin>>choice;
   int or_size=0;
   int new_size=0;
   product * p[]=new product[0];
   while(choice!='T'){
   switch(choice){
+
     //switch (/* expression */) {
       case 'I':
       int n;
