@@ -4,14 +4,6 @@
 
 using namespace std;
 
-int main() {
-string a="hello";
-int b=5;
-
-cout<<c<<endl;
-
-}
-
 void code(int n,product &*p){
   for (int i=1;i<n;i++){
     int f=i%1000;
