@@ -4,12 +4,12 @@
 struct product{
   string code;
   string name;//given by user
-  int quantity;//given by user
-  int number_sold;
-  int e_dd,e_mm,e_year;//expiry date given by user
-  char stock;
-  double cost;//given by user
-  double selling_cost;//gven by user
+  int quantity=0;//given by user
+  int number_sold=0;
+  int e_dd=0,e_mm=0,e_year=0;//expiry date given by user
+  char stock='o';
+  double cost=0;//given by user
+  double selling_cost=0;//gven by user
 };
 
 int main(){
