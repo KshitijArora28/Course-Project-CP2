@@ -30,12 +30,22 @@ int main(){
   cin>>choice;
   int or_size=1;
   int new_size;
-  product * p[]=new product[or_size];
+  product * p=new product[or_size];
 
   while(choice!='T'){
+    int n;
+    string nm;
+    int q;
+    int c;
+    int sp;
+    int ed;
+    int em;
+    int ey;
+    string s;
+    string f;
   switch(choice){
       case 'I':
-      int n;
+
       cout<<"Enter the number of commodities to be appended: -"<<endl;
       cin>>n;
       new_size=or_size+n;
@@ -45,45 +55,45 @@ int main(){
 
       case 'C':
       cout<<"Enter product name to change info (case-sensitive): -"<<endl;
-      string nm;
+
       cin>>nm;
       cout<<"Enter new quantity: -"<<endl;
       cout<<"(If new and old quantity are same enter 0)"<<endl;
-      int q;
+
       cin>>q;
       cout<<"Enter new cost: -"<<endl;
       cout<<"(If new and old cost are same enter 0)"<<endl;
-      int c;
+
       cin>>c;
       cout<<"Enter new selling price: -"<<endl;
       cout<<"(If new and old selling price are same enter 0)"<<endl;
-      int sp;
+
       cin>>sp;
       cout<<"Enter new expiry date: -"<<endl;
       cout<<"(If new and old expiry date are same enter 0)"<<endl;
-      int ed;
+
       cin>>ed;
       cout<<"Enter new expiry month: -"<<endl;
       cout<<"(If new and old expiry month are same enter 0)"<<endl;
-      int em;
+
       cin>>em;
       cout<<"Enter new expiry year: -"<<endl;
       cout<<"(If new and old expiry year are same enter 0)"<<endl;
-      int ey;
+
       cin>>ey;
       Change(p,nm,q,c,sp,ed,em,ey,or_size);
       break;
 
       case 'R':
-      cout<<cout<<"Enter product name to delete: -"<<endl;
-      string s;
+      cout<<"Enter product name to delete: -"<<endl;
+
       cin>>s;
       delete_commodity(p,or_size,s);
       break;
 
       case 'Q':
       cout<<"Enter product name to check sales and new stock: -"<<endl;
-      string f;
+
       cin>>f;
       stock(p,f,or_size);
       break;
