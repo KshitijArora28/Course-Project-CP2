@@ -14,6 +14,7 @@ struct product{
 
 int main(){
   char choice;
+  cout<<"Enter choice"<<endl;
   cout<<"Choices for Operation"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
@@ -23,10 +24,11 @@ int main(){
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
   cout<<"Q->Sell and check stock"<<endl;
-  cout<<"T->Terminate code"<<endl;  cin>>choice;
+  cout<<"T->Terminate code"<<endl;
+  cin>>choice;
   int or_size=1;
   int new_size;
-  product * p[]=new product[1];
+  product * p[]=new product[or_size];
 
   while(choice!='T'){
   switch(choice){
@@ -42,37 +44,37 @@ int main(){
       cout<<"Enter product name to change info (case-sensitive): -"<<endl;
       string nm;
       cin>>nm;
-      cout<<"Enter new quantity"<<endl;
-      cout<<"If new and old quantity are same enter 0"<<endl;
+      cout<<"Enter new quantity: -"<<endl;
+      cout<<"(If new and old quantity are same enter 0)"<<endl;
       int q;
       cin>>q;
-      cout<<"Enter new cost"<<endl;
-      cout<<"If new and old cost are same enter 0"<<endl;
+      cout<<"Enter new cost: -"<<endl;
+      cout<<"(If new and old cost are same enter 0)"<<endl;
       int c;
       cin>>c;
-      cout<<"Enter new selling price"<<endl;
-      cout<<"If new and old selling price are same enter 0"<<endl;
+      cout<<"Enter new selling price: -"<<endl;
+      cout<<"(If new and old selling price are same enter 0)"<<endl;
       int sp;
       cin>>sp;
-      cout<<"Enter new expiry date"<<endl;
-      cout<<"If new and old expiry date are same enter 0"<<endl;
+      cout<<"Enter new expiry date: -"<<endl;
+      cout<<"(If new and old expiry date are same enter 0)"<<endl;
       int ed;
       cin>>ed;
-      cout<<"Enter new expiry month"<<endl;
-      cout<<"If new and old expiry month are same enter 0"<<endl;
+      cout<<"Enter new expiry month: -"<<endl;
+      cout<<"(If new and old expiry month are same enter 0)"<<endl;
       int em;
       cin>>em;
-      cout<<"Enter new expiry year"<<endl;
-      cout<<"If new and old expiry year are same enter 0"<<endl;
+      cout<<"Enter new expiry year: -"<<endl;
+      cout<<"(If new and old expiry year are same enter 0)"<<endl;
       int ey;
       cin>>ey;
-      change(p,nm,q,c,sp,ed,em,ey,or_size);
+      Change(p,nm,q,c,sp,ed,em,ey,or_size);
       break;
 
       case 'R':
       cout<<cout<<"Enter product name to delete: -"<<endl;
       string s;
-      cin>>n;
+      cin>>s;
       delete_commodity(p,or_size,s);
       break;
 
