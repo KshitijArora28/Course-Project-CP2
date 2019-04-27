@@ -22,6 +22,7 @@ These functions will help a user to control, optimise, and manage the ordering a
 
 ![ss2](https://user-images.githubusercontent.com/47174028/56850554-c5408080-6936-11e9-9a5b-6e15d05656f7.png)
 
+![ss3](https://user-images.githubusercontent.com/47174028/56850565-ebfeb700-6936-11e9-84df-bce6338ef4e0.png)
 
 ## Our method for an Optimised Inventory Model
 
