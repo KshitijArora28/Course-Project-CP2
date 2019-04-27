@@ -79,7 +79,7 @@ int main(){
       break;
 
       case 'Q':
-      cout<<"Enter product name to check stock: -"<<endl;
+      cout<<"Enter product name to check sales and new stock: -"<<endl;
       string f;
       cin>>f;
       stock(p,f,or_size);

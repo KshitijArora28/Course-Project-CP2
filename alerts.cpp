@@ -5,7 +5,8 @@
 
 void alerts(product * &p,int n){
   cout<<endl<<"**ALERTS**"<<endl;
-  for (int i=0;i<n;i++){
+  cout<<endl;
+  for (int i=1;i<n;i++){
     if (p[i].quantity<5){
       if (p[i].stock='O'){
           cout<<p[i].name<<" is out-of-stock."<<endl;
@@ -19,7 +20,7 @@ void alerts(product * &p,int n){
   }
   time_t now = time(0);
   tm *gmtm = gmtime(&now);
-  for (int i=0;i<n;i++){
+  for (int i=1;i<n;i++){
     if (p[i].e_year-1900<=tm_year && p[i].e_year!=0){
       if (p[i].e_year-1900<tm_year){
         cout<<p[i].name<<" expiry date is up."<<endl;
