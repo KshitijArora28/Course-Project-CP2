@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+using namespace std;
 struct product{
   string code;
   string name;//given by user
@@ -8,6 +8,7 @@ struct product{
   int number_sold;
   int e_dd,e_mm,e_year;//expiry date given by user
   double cost;//gven by user
+  double selling_cost;//gven by user
 };
 
 int main(){
