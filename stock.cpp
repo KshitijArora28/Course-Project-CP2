@@ -3,13 +3,13 @@
 #include <cstdlib>
 
 void stock(product &* p1[],string f1,int s1){
-  p1[i].sales=rand()%5;
+  p1[i].number_sold=rand()%5;
   for(int i=1;i<s1;i++){
     if(p1[i].name==f1){
-      if(p1[i].sales<=p1[i].quantity){
-        p1[i].quantity=p1[i].quantity-p1[i].sales;
+      if(p1[i].number_sold<=p1[i].quantity){
+        p1[i].quantity=p1[i].quantity-p1[i].number_sold;
       }
-      if(p1[i].sales>p1[i].quantity){
+      if(p1[i].number_sold>p1[i].quantity){
         cout<<"Purchase quantity more than stock"<<endl;
         cout<<"Stock left is "<<p1[i].quantity<<endl;
         cout<<"Do you want to buy ?"<<endl;
@@ -25,4 +25,3 @@ void stock(product &* p1[],string f1,int s1){
     }
   }
 }
-
