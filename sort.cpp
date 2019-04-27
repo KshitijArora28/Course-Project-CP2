@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <bits/stdc++.h>
 
 bool compare_code(product a, product b){
   if (a.code.compare(b.code)<0){
