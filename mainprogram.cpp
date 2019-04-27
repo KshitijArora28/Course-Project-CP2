@@ -26,7 +26,7 @@ int main(){
   cout<<"T->Terminate code"<<endl;  cin>>choice;
   int or_size=1;
   int new_size;
-  product * p[]=new product[1];
+  product * p[]=new product[or_size];
 
   while(choice!='T'){
   switch(choice){
