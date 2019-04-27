@@ -1,22 +1,20 @@
 #include <iostream>
 #include <string>
-#include <cstdlib>
 
 struct product{
   string code;
   string name;//given by user
   int quantity;//given by user
   int number_sold;
-  string expiry_date;//given by user
-  double cost;//gven by user
+  int e_dd,e_mm,e_year;//expiry date given by user
   char stock;
-  int stk;
-  int sales;
+  double cost;//given by user
+  double selling_cost;//gven by user
 };
 
 int main(){
   char choice;
-  cout<<"Enter choice:"<<endl;
+  cout<<"Choices for Operation"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
   cout<<"C->Change commodity info"<<endl;
@@ -25,15 +23,13 @@ int main(){
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
   cout<<"Q->Sell and check stock"<<endl;
-  cout<<"T->Terminate code"<<endl;
-
-  cin>>choice;
+  cout<<"T->Terminate code"<<endl;  cin>>choice;
   int or_size=1;
   int new_size;
   product * p[]=new product[1];
+
   while(choice!='T'){
   switch(choice){
-    //switch (/* expression */) {
       case 'I':
       int n;
       cout<<"Enter the number of commodities to be appended: -"<<endl;
@@ -43,7 +39,7 @@ int main(){
       break;
 
       case 'C':
-      cout<<"Enter product name to change info: -"<<endl;
+      cout<<"Enter product name to change info (case-sensitive): -"<<endl;
       string nm;
       cin>>nm;
       cout<<"Enter new quantity"<<endl;
@@ -74,6 +70,7 @@ int main(){
       cin>>f;
       stock(p,f,or_size);
       break;
+
     }
   cout<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
@@ -89,4 +86,3 @@ int main(){
   }
   return 0;
 }
-
