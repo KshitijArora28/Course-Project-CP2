@@ -38,6 +38,7 @@ int main(){
       cin>>n;
       new_size=or_size+n;
       insert_item(p,or_size,new_size);
+      code(or_size,p);
       break;
 
       case 'C':
@@ -95,6 +96,10 @@ int main(){
 
       case 'O':
       sort(or_size,p);
+      break;
+
+      case 'E':
+      economic(or_size,p);
       break;
     }
   cout<<"Enter next choice:"<<endl;

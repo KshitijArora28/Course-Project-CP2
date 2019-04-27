@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void code(int n,product &*p){
+void code(int n,product *&p){
   for (int i=1;i<n;i++){
     int f=i%1000;
     stringstream num;
