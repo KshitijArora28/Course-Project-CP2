@@ -18,13 +18,13 @@ void alerts(product *p,int n){
   time_t now = time(0);
   tm *gmtm = gmtime(&now);
   for (int i=0;i<n;i++){
-    if (p[i].year<=tm_year-1900 && p[i].year!=0){
-      if (p[i].year<tm_year-1900){
+    if (p[i].e_year<=tm_year-1900 && p[i].e_year!=0){
+      if (p[i].e_year<tm_year-1900){
         cout<<p[i].name<<" expiry date is up."<<endl;
         continue;
       }
-      if(p[i].mm<=tm_mon-1){
-        if(p[i].mm<tm_mon-1){
+      if(p[i].e_mm<=tm_mon-1){
+        if(p[i].e_mm<tm_mon-1){
           cout<<p[i].name<<" expiry date is up."<<endl;
           continue
         }

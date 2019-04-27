@@ -7,7 +7,7 @@ struct product{
   int quantity;//given by user
   int number_sold;
   int e_dd,e_mm,e_year;//expiry date given by user
-  double cost;//gven by user
+  double cost;//given by user
   double selling_cost;//gven by user
 };
 
