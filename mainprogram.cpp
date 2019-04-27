@@ -117,7 +117,7 @@ int main(){
       default:
       cout<<"Invalid input"<<endl;
     }
-  cout<<"Enter next choice:"<<endl;
+  cout<<endl<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
   cout<<"C->Change commodity info"<<endl;

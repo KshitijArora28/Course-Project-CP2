@@ -6,6 +6,7 @@
 #include <sstream>
 #include <ctime>
 #include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct product{
@@ -470,7 +471,7 @@ void search(int n,product* prod){
           default:
           cout<<"Invalid input"<<endl;
         }
-      cout<<"Enter next choice:"<<endl;
+      cout<<endl<<"Enter next choice:"<<endl;
       cout<<"D->Display inventory"<<endl;
       cout<<"I->Insert new commodities"<<endl;
       cout<<"C->Change commodity info"<<endl;
