@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+using namespace std;
 
 void economic(int n,product *p){
   int time_period;
