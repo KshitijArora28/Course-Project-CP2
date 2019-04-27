@@ -14,10 +14,10 @@ void delete_commodity(product *& p1[],int n,string s1){
           p1[j].quantity=p1[i+1].quantity;
           p1[j].expiry_date=p1[i+1].expiry_date;
           p1[j].cost=p1[i+1].cost;
+          p1[j].selling_cost=p1[i+1].sellin_cost;
         }
         n=n-1;
       }
     }
   }
 }
-
