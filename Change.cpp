@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
 void Change(prouct &* p1[],nm1,q1,c1,c2,e1,e2,e3,s){
   for(int i=1;i<s;i++){
     if(p1[i].name==nm1){
