@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 struct product{
   string code;
@@ -13,9 +14,10 @@ struct product{
 };
 
 int main(){
+  cout<<"**Welcome to Inventory Management System**"<<endl;
   char choice;
   cout<<"Enter choice"<<endl;
-  cout<<"Choices for Operation"<<endl;
+  cout<<"Choices for Operation are :-"<<endl;
   cout<<"D->Display inventory"<<endl;
   cout<<"I->Insert new commodities"<<endl;
   cout<<"C->Change commodity info"<<endl;
