@@ -50,11 +50,15 @@ int main(){
       cout<<"If new and old cost are same enter 0"<<endl;
       int c;
       cin>>c;
+      cout<<"Enter new selling price"<<endl;
+      cout<<"If new and old selling price are same enter 0"<<endl;
+      int sp;
+      cin>>sp;
       cout<<"Enter new expiry date"<<endl;
       cout<<"If new and old expiry date are same enter N"<<endl;
       string e;
       cin>>e;
-      change(p,nm,q,c,e,or_size);
+      change(p,nm,q,c,sp,e,or_size);
       break;
 
       case 'R':
