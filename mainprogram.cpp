@@ -95,7 +95,7 @@ int main(){
       break;
 
       case 'O':
-      sort(or_size,p);
+      defsort(or_size,p);
       break;
 
       case 'E':
