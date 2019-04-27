@@ -1,4 +1,4 @@
-void Change(prouct &* p1[],nm1,q1,c1,e1,s){
+void Change(prouct &* p1[],nm1,q1,c1,c2,e1,s){
   for(int i=1;i<s;i++){
     if(p1[i].name==nm1){
       if(q1!=0){
@@ -7,10 +7,12 @@ void Change(prouct &* p1[],nm1,q1,c1,e1,s){
       if(c1!=0){
         p1[i].cost=c1;
       }
+      if(c2!=0){
+        p1[i].selling_cost=c2;
+      }
       if(e1!="N"){
         p1[i].expiry_date=e1;
       }
     }
   }
 }
-
