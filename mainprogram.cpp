@@ -83,6 +83,10 @@ int main(){
       stock(p,f,or_size);
       break;
 
+      case 'D':
+      display(p,or_size);
+      break;
+
     }
   cout<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
