@@ -1,5 +1,8 @@
 # Commodity Inventory System
 
+#####################![SharedScreenshot](https://user-images.githubusercontent.com/47135656/56851199-d1304080-693e-11e9-9e7b-0401c7bfbdde.jpg)####################
+
+
 The objective of this project is to build an inventory system that will enable the organisation using it to manage their stock effectively and efficiently, so as to run the business well.
 
 ## Functions for Inventory Management
