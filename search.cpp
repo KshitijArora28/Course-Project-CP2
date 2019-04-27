@@ -28,7 +28,7 @@ void search(int n,product* prod){
   int list_position=0;
   if (key=='a'){
       cin>>search_item;
-      for (int i=0;i<n;i++){
+      for (int i=1;i<n;i++){
         if(prod[i].name.find(search_item)!=string::npos){
           search_list[list_position]=prod[i];
           list_position++;
@@ -37,7 +37,7 @@ void search(int n,product* prod){
     }
   else if(key=='b'){
     cin<<search_item;
-    for (int i=0;i<n;i++){
+    for (int i=1;i<n;i++){
       if(prod[i].code.find(search_item)!=string::npos){
         search_list[list_position]=prod[i];
         list_position++;
@@ -45,7 +45,7 @@ void search(int n,product* prod){
     }
   }
   else if(key=='c'){
-    for (int i=0;i<n;i++){
+    for (int i=1;i<n;i++){
       if(prod[i].stock=='i'){
         search_list[list_position]=prod[i];
         list_position++;
@@ -53,7 +53,7 @@ void search(int n,product* prod){
     }
   }
   else if(key=='d'){
-    for (int i=0;i<n;i++){
+    for (int i=1;i<n;i++){
       if(prod[i].stock=='o'){
         search_list[list_position]=prod[i];
         list_position++;
@@ -69,7 +69,7 @@ void search(int n,product* prod){
   }
   else{
     cout<<"Search Results are: "<<endl;
-    for (int i=0;i<list_position;i++){
+    for (int i=1;i<list_position;i++){
       cout<<search_list[i]<<endl;
     }
   }

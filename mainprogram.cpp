@@ -87,6 +87,13 @@ int main(){
       display(p,or_size);
       break;
 
+      case 'S':
+      search(or_size,p);
+      break;
+
+      case 'O':
+      sort(or_size,p);
+      break;
     }
   cout<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
