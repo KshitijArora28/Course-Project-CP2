@@ -66,7 +66,7 @@ int main(){
       cout<<"If new and old expiry year are same enter 0"<<endl;
       int ey;
       cin>>ey;
-      change(p,nm,q,c,sp,ed,em,ey,or_size);
+      Change(p,nm,q,c,sp,ed,em,ey,or_size);
       break;
 
       case 'R':
