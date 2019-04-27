@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+using namespace std;
 
 void stock(product &* p1[],string f1,int s1){
   for(int i=1;i<s1;i++){
