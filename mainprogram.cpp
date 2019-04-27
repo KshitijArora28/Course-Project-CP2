@@ -72,7 +72,7 @@ int main(){
       case 'R':
       cout<<cout<<"Enter product name to delete: -"<<endl;
       string s;
-      cin>>n;
+      cin>>s;
       delete_commodity(p,or_size,s);
       break;
 
