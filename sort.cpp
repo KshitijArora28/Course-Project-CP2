@@ -28,13 +28,13 @@ void defsort(int n,product *p){
   cout<<"c. Reverse current order."<<endl;
   cout<<"Enter a,b or c: ";
   cin>>option;
-  if (option='a'){
+  if (option=='a'){
     sort(p, p+n, compare_name);
   }
-  if (option='b'){
+  if (option=='b'){
     sort(p, p+n, compare_code);
   }
-  if (option='c'){
+  if (option=='c'){
       product temp;
         for (int i=1;i<(n/2.0);i++){
         temp=p[i];
