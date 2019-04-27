@@ -1,5 +1,8 @@
 # Commodity Inventory System
 
+#####################![SharedScreenshot](https://user-images.githubusercontent.com/47135656/56851199-d1304080-693e-11e9-9e7b-0401c7bfbdde.jpg)####################
+
+
 The objective of this project is to build an inventory system that will enable the organisation using it to manage their stock effectively and efficiently, so as to run the business well.
 
 ## Functions for Inventory Management
@@ -73,10 +76,9 @@ T->Terminate code
 
 ## Our method for an Optimised Inventory Model
 
-Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
+Our optimised inventory model have used the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
 
-A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output will be an important part of our program.For reference: -
-
+A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output is an important part of our program.For reference: -
 
 ![Project](https://user-images.githubusercontent.com/47174028/55222789-b25b6300-5247-11e9-9ed9-92667633fca8.jpg)
 
