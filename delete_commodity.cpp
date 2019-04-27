@@ -1,3 +1,4 @@
+
 void delete_commodity(product *& p1[],int n,string s1){
   if(p1[n-1].name==s1){
     n=n-1;
@@ -16,3 +17,4 @@ void delete_commodity(product *& p1[],int n,string s1){
     }
   }
 }
+

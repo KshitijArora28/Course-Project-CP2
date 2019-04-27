@@ -21,3 +21,4 @@ void stock(product &* p1[],string f1,int s1){
     }
   }
 }
+

@@ -21,3 +21,4 @@ void insert_item.cpp(product &* p1[],&m1,&m2){
     }
     m1=m2;
 }
+
