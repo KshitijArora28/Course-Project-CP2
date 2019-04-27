@@ -25,6 +25,7 @@ void insert_item(product * &p1,int &m1,int &m2){
       cin>>p1[j].cost;
       cout<<"Enter product selling price: -"<<endl;
       cin>>p1[j].selling_cost;
+      p1[j].stock='I';
     }
     m1=m2;
 }
