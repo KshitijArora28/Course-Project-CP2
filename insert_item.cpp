@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+#include <cstdlib>
+
 void insert_item.cpp(product &* p1[],&m1,&m2){
   product * temp;
   if(m2>m1){
