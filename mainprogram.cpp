@@ -1,14 +1,15 @@
 #include <iostream>
 #include <string>
-using namespace std;
+
 struct product{
   string code;
   string name;//given by user
-  int quantity;//given by user
-  int number_sold;
-  int e_dd,e_mm,e_year;//expiry date given by user
-  double cost;//given by user
-  double selling_cost;//gven by user
+  int quantity=0;//given by user
+  int number_sold=0;
+  int e_dd=0,e_mm=0,e_year=0;//expiry date given by user
+  char stock='o';
+  double cost=0;//given by user
+  double selling_cost=0;//gven by user
 };
 
 int main(){
@@ -19,18 +20,16 @@ int main(){
   cout<<"C->Change commodity info"<<endl;
   cout<<"R->Remove commodity"<<endl;
   cout<<"E->Economic advise based on stock data"<<endl;
-  cout<<"S->Search for an item"<<endl;
-  cout<<"O->Sort items"<<endl;
-  cout<<"T->Terminate code"<<endl;
-  cout<<"Enter choice: ";
-  cin>>choice;
-  int or_size=0;
-  int new_size=0;
-  product * p[]=new product[0];
+  cout<<"S->Search item"<<endl;
+  cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"Q->Sell and check stock"<<endl;
+  cout<<"T->Terminate code"<<endl;  cin>>choice;
+  int or_size=1;
+  int new_size;
+  product * p[]=new product[1];
+
   while(choice!='T'){
   switch(choice){
-
-    //switch (/* expression */) {
       case 'I':
       int n;
       cout<<"Enter the number of commodities to be appended: -"<<endl;
@@ -51,23 +50,30 @@ int main(){
       cout<<"If new and old cost are same enter 0"<<endl;
       int c;
       cin>>c;
+      cout<<"Enter new selling price"<<endl;
+      cout<<"If new and old selling price are same enter 0"<<endl;
+      int sp;
+      cin>>sp;
       cout<<"Enter new expiry date"<<endl;
       cout<<"If new and old expiry date are same enter N"<<endl;
       string e;
       cin>>e;
-      change(p,nm,q,c,e,or_size);
+      change(p,nm,q,c,sp,e,or_size);
       break;
 
-      case 'S':
-      search(or_size,p)
-      break
+      case 'R':
+      cout<<cout<<"Enter product name to delete: -"<<endl;
+      string s;
+      cin>>n;
+      delete_commodity(p,or_size,s);
+      break;
 
-      case 'O':
-      sort(or_size,p)
-
-      case 'E':
-      void economic(int n,product *p)
-      break
+      case 'Q':
+      cout<<"Enter product name to check stock: -"<<endl;
+      string f;
+      cin>>f;
+      stock(p,f,or_size);
+      break;
 
     }
   cout<<"Enter next choice:"<<endl;
@@ -78,8 +84,10 @@ int main(){
   cout<<"E->Economic advise based on stock data"<<endl;
   cout<<"S->Search item"<<endl;
   cout<<"O->Sort items alpahbetically"<<endl;
+  cout<<"Q->Sell and check stock"<<endl;
   cout<<"T->Terminate code"<<endl;
   cin>>choice;
   }
   return 0;
 }
+
