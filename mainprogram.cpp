@@ -117,5 +117,6 @@ int main(){
   cout<<"T->Terminate code"<<endl;
   cin>>choice;
   }
-  return 0;
+  delete [] p;
+  exit(1);
 }
