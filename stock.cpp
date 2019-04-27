@@ -20,6 +20,13 @@ void stock(product &* p1[],string f1,int s1){
           p1[i].quantity=0;
         }
       }
+      if(p1[i].quantity!=0){
+        p1[i].stock='I';
+      }
+      else{
+        p1[i].stock='O';
+      }
+      }
       cout<<"Stock left is "<<p1[i].quantity<<endl;
     }
     }

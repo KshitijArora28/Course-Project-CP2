@@ -7,7 +7,7 @@ struct product{
   int quantity=0;//given by user
   int number_sold=0;
   int e_dd=0,e_mm=0,e_year=0;//expiry date given by user
-  char stock='o';
+  char stock='O';
   double cost=0;//given by user
   double selling_cost=0;//gven by user
 };
