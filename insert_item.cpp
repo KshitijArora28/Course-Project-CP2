@@ -19,11 +19,11 @@ void insert_item(product * &p1,int &m1,int &m2){
       cin>>p1[j].name;
       cout<<"Enter product quantity: -"<<endl;
       cin>>p1[j].quantity;
-      cout<<"Enter product expiry date"<<endl;
+      cout<<"Enter product expiry date: -"<<endl;
       cin>>p1[j].e_dd>>p1[j].e_mm>>p1[j].e_year;
-      cout<<"Enter product cost"<<endl;
+      cout<<"Enter product cost: -"<<endl;
       cin>>p1[j].cost;
-      cout<<"Enter product selling price"<<endl;
+      cout<<"Enter product selling price: -"<<endl;
       cin>>p1[j].selling_cost;
     }
     m1=m2;
