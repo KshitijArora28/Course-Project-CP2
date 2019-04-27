@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+using namespace std;
 
 void stock(product &* p1[],string f1,int s1){
   for(int i=1;i<s1;i++){
@@ -19,6 +20,13 @@ void stock(product &* p1[],string f1,int s1){
         if(ch=='Y'){
           p1[i].quantity=0;
         }
+      }
+      if(p1[i].quantity!=0){
+        p1[i].stock='I';
+      }
+      else{
+        p1[i].stock='O';
+      }
       }
       cout<<"Stock left is "<<p1[i].quantity<<endl;
     }

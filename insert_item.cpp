@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <cstdlib>
+using namespace std;
 
 void insert_item.cpp(product &* p1[],&m1,&m2){
   product * temp;
