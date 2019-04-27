@@ -101,6 +101,9 @@ int main(){
       case 'E':
       economic(or_size,p);
       break;
+
+      default:
+      cout<<"Invalid input"<<endl;
     }
   cout<<"Enter next choice:"<<endl;
   cout<<"D->Display inventory"<<endl;
