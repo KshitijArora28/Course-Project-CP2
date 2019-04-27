@@ -1,3 +1,7 @@
+#include <iostream>
+#include <string>
+#include <cstdlib>
+
 void stock(product &* p1[],string f1,int s1){
   p1[i].sales=rand()%5;
   for(int i=1;i<s1;i++){
