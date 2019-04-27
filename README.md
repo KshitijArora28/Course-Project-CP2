@@ -20,6 +20,9 @@ These functions will help a user to control, optimise, and manage the ordering a
 
 ![ss1](https://user-images.githubusercontent.com/47174028/56850537-9aeec300-6936-11e9-8d99-7bdbe709cbb7.png)
 
+![ss2](https://user-images.githubusercontent.com/47174028/56850554-c5408080-6936-11e9-9a5b-6e15d05656f7.png)
+
+
 ## Our method for an Optimised Inventory Model
 
 Our optimised inventory model will use the above mentioned functions in conjunction with sorting(Multiple varieties based on Alphabetical order, Quantity remaining, fastest moving etc.) to ensure a user friendly assess to the inventory.
