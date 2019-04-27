@@ -6,7 +6,7 @@ using namespace std;
 void stock(product * &p1,string f1,int s1){
   for(int i=1;i<s1;i++){
     if(p1[i].name==f1){
-      p1[i].number_sold=rand()%100;
+      p1[i].number_sold=rand() % 100;
       if(p1[i].number_sold<=p1[i].quantity){
         p1[i].quantity=p1[i].quantity-p1[i].number_sold;
       }
