@@ -22,7 +22,7 @@ void display(product * &p1,int n1){
   }
 
   w=p1[maxlenpos].name.length();
-  fout<<setw(w+4)<<"Name"<<setw(10)<<"Code"<<setw(10)<<"Stock"<<setw(10)<<"Cost"<<setw(14)<<"Sellprice"<<setw(10)<<"Sales"<<setw(10)<<"Expiry date"<<endl;
+  fout<<setw(w+4)<<"Name"<<setw(10)<<"Code"<<setw(10)<<"Stock"<<setw(10)<<"Cost"<<setw(14)<<"Sellprice"<<setw(10)<<"Sales"<<setw(14)<<"Expiry date"<<endl;
   cout<<setw(w+4)<<"Name"<<setw(10)<<"Code"<<setw(10)<<"Stock"<<setw(10)<<"Cost"<<setw(14)<<"Sellprice"<<setw(10)<<"Sales"<<setw(10)<<"Expiry date"<<endl;
   cout<<endl;
   for(int j=1;j<n1;j++){
