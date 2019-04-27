@@ -19,7 +19,7 @@ void insert_item.cpp(product &* p1[],&m1,&m2){
       cout<<"Enter product quantity: -"<<endl;
       cin>>p1[j].quantity;
       cout<<"Enter product expiry date"<<endl;
-      cin>>p1[j].e_dd>>p1[j].e_mm>>p1[j].year;
+      cin>>p1[j].e_dd>>p1[j].e_mm>>p1[j].e_year;
       cout<<"Enter product cost"<<endl;
       cin>>p1[j].cost;
       cout<<"Enter product selling price"<<endl;
