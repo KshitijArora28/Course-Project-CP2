@@ -1,7 +1,10 @@
 //stock below
 //expiry date (According to UST)
 //auto order
+#include <iostream>
 #include <ctime>
+#include <string>
+using namespace std;
 
 void alerts(product * &p,int n){
   cout<<endl<<"**ALERTS**"<<endl;
