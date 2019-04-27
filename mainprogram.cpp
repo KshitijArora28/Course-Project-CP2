@@ -55,10 +55,18 @@ int main(){
       int sp;
       cin>>sp;
       cout<<"Enter new expiry date"<<endl;
-      cout<<"If new and old expiry date are same enter N"<<endl;
-      string e;
-      cin>>e;
-      change(p,nm,q,c,sp,e,or_size);
+      cout<<"If new and old expiry date are same enter 0"<<endl;
+      int ed;
+      cin>>ed;
+      cout<<"Enter new expiry month"<<endl;
+      cout<<"If new and old expiry month are same enter 0"<<endl;
+      int em;
+      cin>>em;
+      cout<<"Enter new expiry year"<<endl;
+      cout<<"If new and old expiry year are same enter 0"<<endl;
+      int ey;
+      cin>>ey;
+      change(p,nm,q,c,sp,ed,em,ey,or_size);
       break;
 
       case 'R':
