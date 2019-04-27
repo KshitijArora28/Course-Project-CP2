@@ -80,6 +80,6 @@ Our optimised inventory model have used the above mentioned functions in conjunc
 
 A very clear list of the products is necessary for a comprehensive inventory system. This sort of a clear tabular output is an important part of our program.For reference: -
 
-![Project](https://user-images.githubusercontent.com/47174028/55222789-b25b6300-5247-11e9-9ed9-92667633fca8.jpg)
+![ss1](https://user-images.githubusercontent.com/47174028/56851752-54549500-6945-11e9-8657-b16e9877178c.png)
 
 To achieve these objectives, we have made use of structures, dynamic variables and a number of libraries and C++ resources.
