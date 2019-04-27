@@ -5,6 +5,7 @@
 
 void alerts(product * &p,int n){
   cout<<endl<<"**ALERTS**"<<endl;
+  cout<<endl;
   for (int i=1;i<n;i++){
     if (p[i].quantity<5){
       if (p[i].stock='O'){
