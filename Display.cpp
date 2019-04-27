@@ -29,4 +29,5 @@ void display(product * &p1,int n1){
     fout<<setw(w+4)<<p1[j].name<<setw(10)<<p1[j].code<<setw(10)<<p1[j].quantity<<setw(10)<<p1[j].cost<<setw(10)<<p1[j].selling_cost<<setw(10)<<p1[j].number_sold<<endl;
     cout<<setw(w+4)<<p1[j].name<<setw(10)<<p1[j].code<<setw(10)<<p1[j].quantity<<setw(10)<<p1[j].cost<<setw(10)<<p1[j].selling_cost<<setw(10)<<p1[j].number_sold<<endl;
   }
+  fout.close();
 }
